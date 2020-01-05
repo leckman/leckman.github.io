@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background: #151515;
+  color: #FBFCD4;
+  letter-spacing: 1.25;
+  line-height: 1.75;
+}
+
+h1, h2, h3 {
+  font-family: 'Kaushan Script', serif;
+  color: #FBC403;
+  letter-spacing: 2.5;
+}
+
+#sections {
+  padding-top: 50px;
+}
+
+.section {
+  width: fit-content;
+  max-width: 40%;
+  border: 1px solid #AD974F;
+  border-radius: 100%;
+  margin: 0 5%;
+  padding: 50px;
+  background: #0A0A0A;
+}
+
+.section:nth-child(odd) {
+  float: right;
+}
+
+.section:nth-child(even) {
+  float: left;
+}
+
+.section:last-of-type {
+  margin-bottom: 50px;
+}
+
+.section p {
+  margin-bottom: 5%;
+}

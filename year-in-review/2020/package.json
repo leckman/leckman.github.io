@@ -1,0 +1,14 @@
+{
+  "name": "2020yearInReview",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leckman/leckman.github.io.git"
+  },
+  "author": "leckman",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
